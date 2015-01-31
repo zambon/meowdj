@@ -2,7 +2,7 @@
   "name": "meowdj",
   "version": "0.0.0",
   "private": true,
-  "author": "henrique.zambon@ca.ibm.com",
+  "author": "henrique.zambon@gmail.com",
   "description": "meow!",
   "dependencies": {
     "hubot": "^2.11.0",
