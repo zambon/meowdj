@@ -21,9 +21,6 @@ module.exports = function (robot) {
     data = JSON.stringify({
       song: msg.match[1]
     });
-
-    msg.send(data);
-
     robot.http(endpoint + "/add")
       .header("Content-Type", "application/json")
       .post(data)(function (err, res, body) {
