@@ -13,8 +13,8 @@ module.exports = function (robot) {
   robot.respond(/h[ae]lp/i, function (msg) {
     msg.send("play     - Add a song to the queue");
     // msg.send("skip     - Skip to the next song in the queue");
-    msg.send("playlist - Show next 10 songs in the queue");
-    msg.send("current  - Show song currently playing");
+    // msg.send("playlist - Show next 10 songs in the queue");
+    // msg.send("current  - Show song currently playing");
   });
 
   robot.respond(/play (.*)/i, function (msg) {
